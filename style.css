@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+  }
+  
+  h1 {
+    color: rgb(134, 202, 182);
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  p {
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  h2{
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  h3 {
+    top: 0;
+    font-size: 50px;
+    color: rgb(134, 202, 182);
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  img {
+    background-color: rgb(134, 202, 182);
+    padding: 10px;
+    border-radius: 5%;
+    margin-top: -400px;
+    max-width: 500px;
+  }
+  
+  .input-group {
+    color: black;
+    font-size: large;
+  }
+  
+  #questionDisplay {
+    margin-top: -250px;
+  }
+  
+  #timer-div {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-right: 20px;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  #startQuiz {
+    background-color: rgb(134, 202, 182);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  #startQuiz:hover {
+    background-color: darkcyan;
+  }
+  
+  .questions {
+    background-color:rgb(175, 224, 210);
+    color: black;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 30%;
+    padding: 10px;
+    font-family: monospace;
+  }
+  
+  .questions:hover {
+    background-color: rgb(149, 186, 196);
+  }
+  
+  #main-div {
+    margin-top: 200px;
+  }
+  
+  #score-div {
+    color: black;
+    text-align: center;
+    margin-bottom: -100px;
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  #final-score {
+    color: black;
+  }

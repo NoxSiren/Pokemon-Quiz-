@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS_Quiz</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Added jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Google Font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Estonia&family=Passions+Conflict&display=swap" rel="stylesheet"> 
+
+</head>
+
+  <body>
+    <!-- Timer Div -->
+    <div id="timer-div"></div>
+    <div id="score-div"></div>
+
+    <!-- Stores all written content -->
+    <div id="main-div">
+      <h1>Pokemon Quiz!</h1>
+        <p>This is a fun and easy pokemon quiz! You must identify the TYPES of the 8 pokemon that appear!</p>
+        <p>You will have 90 seconds to complete the quiz, but if you answser a quetion wrong you will loose 10 seconds off your time!</p>
+        <p>You must finish in time to get your score!</p>
+      <h2>Can you get them all?!</h2>
+      <div class="input-group">
+        <label for="first-name">Name</label>
+        <input
+          type="text"
+          name="first-name"
+          id="first-name"
+          placeholder="enter name"
+        />
+      </div>
+      <br />
+      <button id="startQuiz">Click to Start!</button>
+    </div>
+    <form method="POST">
+      <!-- Question Display div -->
+      <div id="questionDisplay">
+        <span id="first-name-display"></span>
+        <h1 id="theAsk"></h1>
+        <button class="questions" id="answer1"></button>
+        <button class="questions" id="answer2"></button>
+        <button class="questions" id="answer3"></button>
+        <button class="questions" id="answer4"></button>
+      </div>
+
+      <div id="endScreen">
+        <img src="https://images.unsplash.com/photo-1627693685101-687bf0eb1222?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Cute Pikachu!" />
+        <h3><span id="name-display"></span>, did you get them all?!</h3>
+        <h2>
+          Your High Score: <span id="final-score"></span>!
+        </h2>
+      </div>
+    </form>
+
+    <script src="./script.js" type="text/javascript"></script>
+  </body>
+</html>
